@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Funcionários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema de Gestão de Funcionários</h1>
+
+    <form id="employee-form">
+        <input type="hidden" id="employee-id">
+        <input type="text" id="name" placeholder="Nome do Funcionário" required>
+        <input type="number" id="age" placeholder="Idade" required>
+        <input type="text" id="role" placeholder="Cargo" required>
+        <input type="number" id="salary" placeholder="Salário" step="100" min="0" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Funcionários Cadastrados</h2>
+    <table id="employee-table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cargo</th>
+                <th>Salário</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+</table>
+
+    <div id="reports-section">
+        <h2>Relatórios</h2>
+        <button id="btn-salary-filter">Salários > R$ 5000</button>
+        <button id="btn-avg-salary">Média Salarial</button>
+        <button id="btn-unique-roles">Listar Cargos</button>
+        <button id="btn-uppercase-names">Nomes em Maiúsculo</button>
+        
+        <div id="report-output">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* Estilização geral da tabela para melhor espaçamento e leitura */
+#employee-table {
+    width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+    border-collapse: collapse; /* Une as bordas das células */
+    margin-top: 20px; /* Adiciona um espaço acima da tabela */
+}
+
+/* Estilização para as células do cabeçalho (th) e do corpo da tabela (td) */
+#employee-table th, #employee-table td {
+    border: 1px solid #dddddd; /* Adiciona uma borda cinza claro */
+    text-align: left;          /* Alinha o texto à esquerda */
+    padding: 8px 12px;         /* A mágica acontece aqui! Define o espaçamento interno. */
+}
+
+/* Estiliza o cabeçalho para se destacar */
+#employee-table th {
+    background-color: #f2f2f2; /* Um fundo cinza claro para o cabeçalho */
+    font-weight: bold;
+}
+
+/* Adiciona um efeito de hover para destacar a linha onde o mouse está */
+#employee-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilização para a seção de relatórios */
+#reports-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #f2f2f2;
+}
